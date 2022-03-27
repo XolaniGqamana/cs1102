@@ -16,8 +16,11 @@ public class DataTypes{
         boolean isFinished;
 
         userName = " Xolani"; 
+        isFinished = true;
         System.out.println("");
         System.out.println(userName);
+        System.out.println("");
+        System.out.println(isFinished);
         System.out.println("");
     
     }

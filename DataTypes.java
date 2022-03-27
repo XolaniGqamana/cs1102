@@ -19,6 +19,7 @@ public class DataTypes{
         userName = "Xolani"; 
         isFinished = true;
         d = 32767;
+
         System.out.println("");
         System.out.println(userName);
         System.out.println("");

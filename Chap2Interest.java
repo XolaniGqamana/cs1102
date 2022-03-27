@@ -4,14 +4,14 @@
  * (Optional-package-declaration)
  * (Optional-imports)
  */
-public class calculateInt{
+public class Chap2Interest{
     /**
      * (Optional-variable-declarations-and-subroutines)
      */
 
     public static void main(String[] args){
-        double principal        //The value of the investment
-        double annualInterest   //The annual interest rate
+        double principal;        //The value of the investment
+        double annualInterest;   //The annual interest rate
     
     }
     /**

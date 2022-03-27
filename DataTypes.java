@@ -14,13 +14,17 @@ public class DataTypes{
         String userName;
         double b, c;
         boolean isFinished;
+        short d;
 
-        userName = " Xolani"; 
+        userName = "Xolani"; 
         isFinished = true;
+        d = 32767;
         System.out.println("");
         System.out.println(userName);
         System.out.println("");
         System.out.println(isFinished);
+        System.out.println("");
+        System.out.println(d);
         System.out.println("");
     
     }

@@ -1,7 +1,5 @@
 
-/**
- * A template to use for all Java programs
- * (Optional-package-declaration)
+/**(Optional-package-declaration)
  * (Optional-imports)
  */
 public class programName{
@@ -18,3 +16,5 @@ public class programName{
      */
 
 }
+
+

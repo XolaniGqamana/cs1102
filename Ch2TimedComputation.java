@@ -22,9 +22,12 @@ public class Ch2TimedComputation {
         width = 42.0;
         height = 17.0;
         hypotenuse = Math.sqrt( width * width + height * height );
+        System.out.println("A triangle with sides 42 and 17 has hypotenuse " + hypotenuse );
         
         System.out.println("\nMathematically, sin(x)*sin(x) + cos(x)*cos(x) - 1 shoud be zero.");
         System.out.println("Let's check this for x = 100:");
+        System.out.println(Math.sin(100)*Math.sin(100) + Math.cos(100)*Math.cos(100) - 1);
+
         endTime = System.nanoTime();
 
         compilationTime = endTime - startTime;
@@ -35,9 +38,6 @@ public class Ch2TimedComputation {
         System.out.println("\nRun time in seconds was: " + secondsCompTime);
     
 
-
-        
-    
     }//end of main()
 
 }//end of class 

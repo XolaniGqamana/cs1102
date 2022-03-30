@@ -11,6 +11,32 @@ public class Ch2TimedComputation {
         long startTime;         // start time of program in nanoseconds
         long endTime;           // time when computations are done in nanoseconds
         long compilationTime;   // run time in nanoseconds
+        double secondsCompTime; // time difference in seconds
+
+        startTime = System.nanoTime();
+        System.out.println("");
+        System.out.println(startTime);
+        System.out.println("");
+
+        double width, height, hypotenuse; //sides of a triangle
+        width = 42.0;
+        height = 17.0;
+        hypotenuse = Math.sqrt( width * width + height * height );
+        
+        System.out.println("\nMathematically, sin(x)*sin(x) + cos(x)*cos(x) - 1 shoud be zero.");
+        System.out.println("Let's check this for x = 100:");
+        endTime = System.nanoTime();
+
+        compilationTime = endTime - startTime;
+        secondsCompTime = compilationTime /  1000000000.0;
+
+        System.out.println("\nRun time in nanoseconds was: " + compilationTime);
+        System.out.println("\nThis is probably not perfectly accurate.");
+        System.out.println("\nRun time in seconds was: " + secondsCompTime);
+    
+
+
+        
     
     }//end of main()
 

@@ -23,10 +23,10 @@ public class Ch2Interest{
         /*Output the results. */
         System.out.println("");
         System.out.print("Interest earned = R");
-        System.out.println(interestEarned);
+        System.out.printf("%1.2f", interestEarned);
         System.out.println("");
         System.out.print("The value of the investemt after one year = R");
-        System.out.println(principalAmount);
+        System.out.printf("%1.2f", principalAmount);
         System.out.println("");
     
     }
